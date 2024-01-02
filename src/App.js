@@ -19,7 +19,7 @@ function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
         <Route path='/' element={<Root></Root>}>
-            <Route index  element={<Home></Home>}></Route>
+            <Route index path='/FTX' element={<Home></Home>}></Route>
             <Route path='/client' element={<Client></Client>}></Route>
             <Route path='*' element={<NotFound></NotFound>}></Route>
         </Route>
