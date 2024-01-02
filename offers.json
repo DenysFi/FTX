@@ -3,74 +3,74 @@
         {
             "labels": [
                 {
-                    "srcIcon": "../../../img/common/card-offer/label-ico/01.svg",
+                    "srcIcon": "../../../FTX/img/common/card-offer/label-ico/01.svg",
                     "title" : "Top Talent to Copy"
                 },
                 {
-                    "srcIcon": "../../../img/common/card-offer/label-ico/02.svg",
+                    "srcIcon": "../../../FTX/img/common/card-offer/label-ico/02.svg",
                     "title" : "Diversification"
                 },
                 {
-                    "srcIcon": "../../../img/common/card-offer/label-ico/03.svg",
+                    "srcIcon": "../../../FTX/img/common/card-offer/label-ico/03.svg",
                     "title" : "Transparent Reporting"
                 }
             ],
             "subtitile":{
-                "iconSrc" : "../../../img/common/card-offer/subtitleico/01.svg",
+                "iconSrc" : "../../../FTX/img/common/card-offer/subtitleico/01.svg",
                 "title" : "Investors"
             },
             "title" : "Connecting Investors to  Exceptional Traders",
             "text" : "<p>Rely an investment team with decades of experience identifying and managing trading talent.</p> <p>A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame. </p>",
-            "imgSrc": "../../../img/common/card-offer/media/01.jpg",
-            "imgSrcHolder": "../../../img/common/card-offer/media/01o.jpg" 
+            "imgSrc": "../../../FTX/img/common/card-offer/media/01.jpg",
+            "imgSrcHolder": "../../../FTX/img/common/card-offer/media/01o.jpg" 
         },
         {
             "labels": [
                 {
-                    "srcIcon": "../../../img/common/card-offer/label-ico/04.svg",
+                    "srcIcon": "../../../FTX/img/common/card-offer/label-ico/04.svg",
                     "title" : "New Talent"
                 },
                 {
-                    "srcIcon": "../../../img/common/card-offer/label-ico/05.svg",
+                    "srcIcon": "../../../FTX/img/common/card-offer/label-ico/05.svg",
                     "title" : "Earn Extra Money"
                 },
                 {
-                    "srcIcon": "../../../img/common/card-offer/label-ico/06.svg",
+                    "srcIcon": "../../../FTX/img/common/card-offer/label-ico/06.svg",
                     "title" : "Investors looking for Action"
                 }
             ],
             "subtitile":{
-                "iconSrc" : "../../../img/common/card-offer/subtitleico/03.svg",
+                "iconSrc" : "../../../FTX/img/common/card-offer/subtitleico/03.svg",
                 "title" : "Aspiring Pros"
             },
             "title" : "Discover Trading Talent",
             "text" : "<p>Get on the stage and get discovered. Start making money based on your trading talent. The FXT Stage is a place for undiscovered talent to be discovered and take the important steps towards becoming a professional trader. </p> <p>The FXT Stage provides everyone an opportunity to showcase their talent and become part of a vibrant community of traders and to earn money based on your ability to attract investors or traders looking to learn from you. </p>",
-            "imgSrc": "../../../img/common/card-offer/media/02.jpg",
-            "imgSrcHolder": "../../../img/common/card-offer/media/02o.jpg" 
+            "imgSrc": "../../../FTX/img/common/card-offer/media/02.jpg",
+            "imgSrcHolder": "../../../FTX/img/common/card-offer/media/02o.jpg" 
         },
         {
             "labels": [
                 {
-                    "srcIcon": "../../../img/common/card-offer/label-ico/07.svg",
+                    "srcIcon": "../../../FTX/img/common/card-offer/label-ico/07.svg",
                     "title" : "In-depth Quantitative Analysis"
                 },
                 {
-                    "srcIcon": "../../../img/common/card-offer/label-ico/08.svg",
+                    "srcIcon": "../../../FTX/img/common/card-offer/label-ico/08.svg",
                     "title" : "Top Traders"
                 },
                 {
-                    "srcIcon": "../../../img/common/card-offer/label-ico/09.svg",
+                    "srcIcon": "../../../FTX/img/common/card-offer/label-ico/09.svg",
                     "title" : "FXT Qualified Pro"
                 }
             ],
             "subtitile":{
-                "iconSrc" : "../../../img/common/card-offer/subtitleico/2.svg",
+                "iconSrc" : "../../../FTX/img/common/card-offer/subtitleico/2.svg",
                 "title" : "FXT Select"
             },
             "title" : "Connecting Investors to  Exceptional Traders",
             "text" : "<p>Start copying the trades of some of the worlds best trading talent and leave the complexity of choosing who to invest with a team of institutional capital allocators who specialise in identifying and developing trading talent</p> <p>The FXT allocation team comprise experts Dr Michael Berman and Dr Vladimir Krouglov and their team along with independent industry experts who have spent decades allocating millions of dollars to hundreds of traders. </p>",
-            "imgSrc": "../../../img/common/card-offer/media/03.jpg",
-            "imgSrcHolder": "../../../img/common/card-offer/media/03o.jpg" 
+            "imgSrc": "../../../FTX/img/common/card-offer/media/03.jpg",
+            "imgSrcHolder": "../../../FTX/img/common/card-offer/media/03o.jpg" 
         }
 
     ]
