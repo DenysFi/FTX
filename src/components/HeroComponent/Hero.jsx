@@ -8,12 +8,12 @@ const Hero = () => {
                 <h1 className="content-hero__title"> <strong className='marker'>Supercharge</strong>  Your Trading & Investment</h1>
                 <FtxButton link={true} modif = {['content-hero__button', 'bold']}>Start Trading</FtxButton>
                 <div className="content-hero__review ">
-                    <img src='../../../img/hero/review.png' alt="" />
+                    <img src='../../../FTX/img/hero/review.png' alt="" />
                 </div>
             </div>
             <div className="hero__image">
                 
-                <img src='../../../img/hero/ftx3.png' alt="logo" />
+                <img src='../../../FTX/img/hero/ftx3.png' alt="logo" />
             </div>
         </div>
     </section>

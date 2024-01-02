@@ -16,7 +16,7 @@ const Investing = () => {
                     {
                         isMoveble && (
                             <div ref={imgRef} className="main-investing__image">
-                                <img src="../../../img/investing/bg.jpg" alt="main-bg" loading='lazy'/>
+                                <img src="../../../FTX/img/investing/bg.jpg" alt="main-bg" loading='lazy'/>
                             </div>
                         )
                     }
@@ -26,7 +26,7 @@ const Investing = () => {
                     <div className="main-investing__labels">
                         <div className="main-investing__label label-main-investing">
                             <div className="label-main-investing__icon">
-                                <img src="../../../img/investing/01.svg" alt="icon" loading='lazy'/>
+                                <img src="../../../FTX/img/investing/01.svg" alt="icon" loading='lazy'/>
                             </div>
                             <div className="label-main-investing__text">
                                 <p>
@@ -36,7 +36,7 @@ const Investing = () => {
                         </div>
                         <div className="main-investing__label label-main-investing">
                             <div className="label-main-investing__icon">
-                                <img src="../../../img/investing/02.svg" alt="icon" loading='lazy'/>
+                                <img src="../../../FTX/img/investing/02.svg" alt="icon" loading='lazy'/>
                             </div>
                             <div className="label-main-investing__text">
                                 <p>
@@ -49,7 +49,7 @@ const Investing = () => {
                 {
                     !isMoveble && (
                         <div ref={imgRef} className="main-investing__image">
-                            <img src="../../../img/investing/bg.jpg" loading='lazy' alt="background"/>
+                            <img src="../../../FTX/img/investing/bg.jpg" loading='lazy' alt="background"/>
                         </div>
                     )
                 }
@@ -58,7 +58,7 @@ const Investing = () => {
                 <ul className="introduction-investing__items">
                     <li className='introduction-investing__item'>
                         <div className="introduction-investing__image">
-                            <img src="../../../img/investing/man.png" loading='lazy' alt="man"/>
+                            <img src="../../../FTX/img/investing/man.png" loading='lazy' alt="man"/>
                         </div>
                         <div className="introduction-investing__content">
                             <div className="introduction-investing__number">1</div>
@@ -68,7 +68,7 @@ const Investing = () => {
                     </li>
                     <li className='introduction-investing__item'>
                         <div className="introduction-investing__image">
-                            <img src="../../../img/investing/counter.png" alt="counter" loading='lazy'/>
+                            <img src="../../../FTX/img/investing/counter.png" alt="counter" loading='lazy'/>
                         </div>
                         <div className="introduction-investing__content">
                             <div className="introduction-investing__number">2</div>
@@ -78,7 +78,7 @@ const Investing = () => {
                     </li>
                     <li className='introduction-investing__item'>
                         <div className="introduction-investing__image">
-                            <img src="../../../img/investing/chair.png" loading='lazy' alt="chair"/>
+                            <img src="../../../FTX/img/investing/chair.png" loading='lazy' alt="chair"/>
                         </div>
                         <div className="introduction-investing__content">
                             <div className="introduction-investing__number">3</div>

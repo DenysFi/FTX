@@ -15,7 +15,7 @@ const Header = () => {
         <div className="menu-header__container">
           <div className="menu-header__top">
             <div className="menu-header__logo">
-              <img src='../../../img/header/logo.png' loading='lazy' alt="logo" />
+              <img src='../../../FTX/img/header/logo.png' loading='lazy' alt="logo" />
             </div>
             <Burger/>
           </div>

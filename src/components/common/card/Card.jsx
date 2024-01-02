@@ -6,8 +6,8 @@ const Card = ({modif}) => {
     <article className={classes}>
         <div className="card__currency">EUR/USD</div>
         <div className="card__images">
-            <img src="../../../../img/common/card/eur.jpg" loading='lazy' alt="eur" />
-            <img src="../../../../img/common/card/usa.jpg" loading='lazy' alt="usa" />
+            <img src="../../../../FTX/img/common/card/eur.jpg" loading='lazy' alt="eur" />
+            <img src="../../../../FTX/img/common/card/usa.jpg" loading='lazy' alt="usa" />
         </div>
         <table className='card__table'>
         <tbody className='card__body'>

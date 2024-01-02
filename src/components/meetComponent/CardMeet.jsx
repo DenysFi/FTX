@@ -6,7 +6,7 @@ const CardMeet = (props) => {
     <article className='card-meet'>
         <div className="card-meet__user">
             <div className="card-meet__icon">
-                <img src="../../../img/meet/meet-card/user.jpg"  loading='lazy' alt="user"/>
+                <img src="../../../FTX/img/meet/meet-card/user.jpg"  loading='lazy' alt="user"/>
             </div>
             <div className="card-meet__user-body">
                 <h5 className="card-meet__username">Michael Moss</h5>
@@ -19,7 +19,7 @@ const CardMeet = (props) => {
                 <div className="card-meet__score">FXT Score: <span>89</span></div>
             </div>
             <div className="card-meet__image">
-            <img src="../../../img/meet/meet-card/01.png" loading='lazy' alt="01"/>
+            <img src="../../../FTX/img/meet/meet-card/01.png" loading='lazy' alt="01"/>
             </div>
             <div className="card-meet__info">
                 <div className="card-meet__row">

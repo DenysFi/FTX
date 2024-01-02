@@ -28,31 +28,31 @@ const Footer = () => {
                 <ul data-mediaquery='767' ref={blockWidtSpollers} className="footer__row">
                     <li className="footer__column">
                         <div className="footer__logo">
-                            <img src="../../../img/footer/logo-white.svg" alt="Logotype"/>
+                            <img src="../../../FTX/img/footer/logo-white.svg" alt="Logotype"/>
                             {
                                 isLinkBtnShoweble && <a href="##" className="footer__link">Connect with Us</a>
                             }
                         </div>
                         <div className="footer__social">
                             <a href="##" className="footer__icon">
-                                <img src="../../../img/footer/facebook.svg" alt="Fb"/>
+                                <img src="../../../FTX/img/footer/facebook.svg" alt="Fb"/>
                             </a>
                             <a href="##" className="footer__icon">
-                                <img src="../../../img/footer/twitter.svg" alt="twitter"/>
+                                <img src="../../../FTX/img/footer/twitter.svg" alt="twitter"/>
                             </a>
                             <a href="##" className="footer__icon">
-                                <img src="../../../img/footer/linked.svg" alt="linked"/>
+                                <img src="../../../FTX/img/footer/linked.svg" alt="linked"/>
                             </a>
                             <a href="##" className="footer__icon">
-                                <img src="../../../img/footer/insta.svg" alt="insta"/>
+                                <img src="../../../FTX/img/footer/insta.svg" alt="insta"/>
                             </a>
                             <a href="##" className="footer__icon">
-                                <img src="../../../img/footer/tick.svg" alt="tick"/>
+                                <img src="../../../FTX/img/footer/tick.svg" alt="tick"/>
                             </a>
                             {
                                 isYtbShoweble && 
                                 <a ref={ytbRef} href="##" className="footer__icon">
-                                    <img src="../../../img/footer/yt.svg" alt="youtub"/>
+                                    <img src="../../../FTX/img/footer/yt.svg" alt="youtub"/>
                                 </a>
                             }
                             
@@ -61,10 +61,10 @@ const Footer = () => {
                             !isDownloadMoveble  &&
                             <div ref={downloadRef} className="footer__download">
                                 <a href="##">
-                                    <img src="../../../img/footer/apple.svg" alt="Apple download "/>
+                                    <img src="../../../FTX/img/footer/apple.svg" alt="Apple download "/>
                                 </a>
                                 <a href="##">
-                                    <img src="../../../img/footer/google.svg" alt="Google download"/>
+                                    <img src="../../../FTX/img/footer/google.svg" alt="Google download"/>
                                 </a>
                         </div>
                         }
@@ -232,7 +232,7 @@ const Footer = () => {
             </nav>
             <div className="footer__copy ">
                 <h4>
-                    Made with <img src="../../../img/footer/heart.svg" alt=""/> in Australia
+                    Made with <img src="../../../FTX/img/footer/heart.svg" alt=""/> in Australia
                 </h4>
                 <p>
                 © Copyright 2022 FXTRADING.com (FXT)
@@ -240,22 +240,22 @@ const Footer = () => {
             </div>
             <div className="footer__pay">
                 <a href='##' className="footer__image">
-                    <img src="../../../img/footer/visa.svg" alt=""/>
+                    <img src="../../../FTX/img/footer/visa.svg" alt=""/>
                 </a>
                 <a href='##' className="footer__image">
-                    <img src="../../../img/footer/mastercard.svg" alt=""/>
+                    <img src="../../../FTX/img/footer/mastercard.svg" alt=""/>
                 </a>
                 <a href='##' className="footer__image">
-                    <img src="../../../img/footer/paypal.svg" alt=""/>
+                    <img src="../../../FTX/img/footer/paypal.svg" alt=""/>
                 </a>
                 <a href='##' className="footer__image">
-                    <img src="../../../img/footer/skrill.svg" alt=""/>
+                    <img src="../../../FTX/img/footer/skrill.svg" alt=""/>
                 </a>
                 <a href='##' className="footer__image">
-                    <img src="../../../img/footer/neteller.svg" alt=""/>
+                    <img src="../../../FTX/img/footer/neteller.svg" alt=""/>
                 </a>
                 <a href='##' className="footer__image">
-                    <img src="../../../img/footer/more.svg" alt=""/>
+                    <img src="../../../FTX/img/footer/more.svg" alt=""/>
                 </a>
             </div>
             <div className="footer__text">

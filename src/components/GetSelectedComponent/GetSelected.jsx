@@ -10,7 +10,7 @@ const GetSelected = () => {
             <BlockHeader  modif={['_bold']} titletext={'How to Get Selected'}></BlockHeader>
             <div className="get-selected__main">
                 <div className="get-selected__image">
-                    <img src="../../../img/GetSelected/star.png" loading='lazy' alt="star"/>
+                    <img src="../../../FTX/img/GetSelected/star.png" loading='lazy' alt="star"/>
                 </div>
                 <div className="get-selected__content">
                     <h4 className="get-selected__title">Are you a serious trader? </h4>

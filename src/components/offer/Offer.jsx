@@ -7,7 +7,7 @@ const Offer =  () => {
     useEffect(() => {
         const fetchData = async () => {
           try {
-            const resp = await fetch('../../../offers.json');
+            const resp = await fetch('../../../FTX/offers.json');
             if (!resp.ok) {
               throw new Error(`Error: ${resp.status} - ${resp.statusText}`);
             }

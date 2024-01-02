@@ -54,8 +54,8 @@ const Empower = () => {
                 
                 <div className="empower__image">
                 <LazyLoadImage 
-                    src="../../../img/Emprower/image.png" alt="emprower image"
-                    placeholderSrc='../../../img/Emprower/imageO.png'
+                    src="../../../FTX/img/Emprower/image.png" alt="emprower image"
+                    placeholderSrc='../../../FTX/img/Emprower/imageO.png'
                     loading='lazy'
                     effect="blur"
                 >

@@ -13,9 +13,9 @@ const GetStarted = () => {
                 <TabItem tablabel='Aspiring Pro' tabIndex='2'>
                     Первый  таб
                 <div className="get-started__cards">
-                        <article className="get-started__card card-get-started">
+                <article className="get-started__card card-get-started">
                             <div className="card-get-started__image">
-                                <img src="../../../img/Getstarted/01.png" alt=""/>
+                                {/* <img src="../../../img/Getstarted/01.png" alt=""/> */}
                             </div>
                             <div className="card-get-started__instruction">
                                 <span>1</span>
@@ -24,7 +24,7 @@ const GetStarted = () => {
                         </article>
                         <article className="get-started__card card-get-started">
                             <div className="card-get-started__image">
-                                <img src="../../../img/Getstarted/02.png" alt=""/>
+                                {/* <img src="../../../img/Getstarted/02.png" alt=""/> */}
                             </div>
                             <div className="card-get-started__instruction">
                                 <span>2</span>
@@ -33,7 +33,7 @@ const GetStarted = () => {
                         </article>
                         <article className="get-started__card card-get-started">
                             <div className="card-get-started__image">
-                                <img src="../../../img/Getstarted/03.png" alt=""/>
+                                {/* <img src="../../../img/Getstarted/03.png" alt=""/> */}
                             </div>
                             <div className="card-get-started__instruction">
                                 <span>3</span>
@@ -42,7 +42,7 @@ const GetStarted = () => {
                         </article>
                         <article className="get-started__card card-get-started">
                             <div className="card-get-started__image">
-                                <img src="../../../img/Getstarted/04.png" alt=""/>
+                                {/* <img src="../../../img/Getstarted/04.png" alt=""/> */}
                             </div>
                             <div className="card-get-started__instruction">
                                 <span>4</span>
