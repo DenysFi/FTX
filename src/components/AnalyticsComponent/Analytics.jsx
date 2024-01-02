@@ -1,6 +1,7 @@
 import React from 'react';
 import BlockHeader from '../common/block-header/BlockHeader';
 import FtxButton from '../common/ftxButton/Button';
+import img from '../../img/Analytics/image.png'
 
 const Analytics = () => {
   return (
@@ -12,7 +13,7 @@ const Analytics = () => {
                     <FtxButton modif={['bold','analitycs__link' ]} link={true}>Download the App</FtxButton>
                 </div>
                 <div className="analitycs__image">
-                    <img src="../../../img/Analytics/image.png" alt=""/>
+                    <img src={img} alt=""/>
                 </div>
             </div>
         </div>
