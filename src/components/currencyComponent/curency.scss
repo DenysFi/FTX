@@ -17,7 +17,7 @@
         @media (max-width:$tablet){
           overflow-x: scroll;
           overflow-y:unset;
-          padding: toRem(10) toRem(10) toRem(20) toRem(10);
+          padding: toRem(10) ;
           margin-right: toRem(-15);
           background: linear-gradient(94deg, #0183FF 0%, #0054F7 100%);
           color: $mainColor;

@@ -134,6 +134,9 @@
     &__details {
         display: grid;
         gap: toRem(20);
+        summary::-webkit-details-marker {
+            display: none;
+        }
         summary{
             cursor: pointer;
             @media (min-width:$mobile){

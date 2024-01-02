@@ -5,7 +5,6 @@ import Home from './pages/Home';
 import Client from './pages/Client';
 import NotFound from './pages/NotFound';
 import { onContentLoaded } from './utiles/utiles';
-
 import {
   createBrowserRouter,
   createRoutesFromElements,

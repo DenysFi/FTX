@@ -59,6 +59,10 @@
 
     }
     &__title {
+       
+        summary::-webkit-details-marker {
+            display: none;
+        }
         &::marker{
             display: none;
             content: "";

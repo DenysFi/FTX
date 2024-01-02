@@ -5,3 +5,23 @@ export function onContentLoaded(){
       };
 }
 onContentLoaded();
+
+export function toggleLock(){
+  document.documentElement.classList.toggle('lock');
+}
+export function handleMenu(){
+  if(!document.documentElement.classList.contains('menu-open')){
+      openBurger();
+      toggleLock();
+  }
+  else{
+      closeBurger();
+      toggleLock();
+  }
+}
+export function closeBurger(){
+  document.documentElement.classList.remove('menu-open');
+}
+export function openBurger(){
+  document.documentElement.classList.add('menu-open');
+}

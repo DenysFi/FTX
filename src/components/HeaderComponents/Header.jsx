@@ -3,11 +3,19 @@ import FtxButton from '../common/ftxButton/Button';
 import TopMenu from './TopMenu';
 import Burger from './Burger';
 import { Link, useLocation  } from 'react-router-dom';
+import { handleMenu } from '../../utiles/utiles';
 // import useMediaChange from '../../hooks/useMediaChange';
 
 const Header = () => {
   const targetRef = useRef(null);
   const location = useLocation();
+
+  function handleClick(e){
+    if(e.target.closest('li') &&  document.documentElement.classList.contains('menu-open')){
+        handleMenu();
+    }
+  }
+
   return (
     <header className="header">
       <TopMenu ref ={targetRef} dmediaquery="767" />
@@ -22,9 +30,9 @@ const Header = () => {
 
           {/* {isMoveble && <TopMenu dmediaquery="767" ref ={targetRef}/>} */}
           <nav className="menu-header__nav nav">
-            <ul className="nav__list">
+            <ul className="nav__list" onClick={(e) => handleClick(e)}>
               <li className="nav__item">
-                <Link to={"/"} className={'nav__link ' + (location.pathname === '/' && '_active')} >Trading</Link>
+                <Link to={"/FTX"} className={'nav__link ' + (location.pathname === '/FTX' && '_active')} >Trading</Link>
                   {/* <a href="#/" className="nav__link _active">Trading</a> */}
               </li>
               <li className="nav__item">

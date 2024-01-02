@@ -6,32 +6,32 @@ const LogosList = () => {
         <ul className='partners__list'>
             <li className="partners__item partners__item--dark">
                 <div className="partners__icon">
-                    <img src='../../../FTX/img/partners/icons/bitc.png' loading='lazy' alt="bitc"/>
+                    <img src='../../../FTX/img/partners/icons/bitc.png'  alt="bitc"/>
                 </div>
             </li>
             <li className="partners__item partners__item--blue">
                 <div className="partners__icon">
-                    <img src='../../../FTX/img/partners/icons/bitc.png' loading='lazy' alt="bitc"/>
+                    <img src='../../../FTX/img/partners/icons/bitc.png'  alt="bitc"/>
                 </div>
             </li>
             <li className="partners__item partners__item--white">
                 <div className="partners__icon">
-                    <img src='../../../FTX/img/partners/icons/01.png' loading='lazy' alt="icon"/>
+                    <img src='../../../FTX/img/partners/icons/01.png'  alt="icon"/>
                 </div>
             </li>
             <li className="partners__item partners__item--blue">
                 <div className="partners__icon">
-                    <img src='../../../FTX/img/partners/icons/backet.png' loading='lazy' alt="backet"/>
+                    <img src='../../../FTX/img/partners/icons/backet.png'  alt="backet"/>
                 </div>
             </li>
             <li className="partners__item partners__item--white">
                 <div className="partners__icon">
-                    <img src='../../../FTX/img/partners/icons/02.png' loading='lazy' alt="icon"/>
+                    <img src='../../../FTX/img/partners/icons/02.png'  alt="icon"/>
                 </div>
             </li>
             <li className="partners__item partners__item--blue">
                 <div className="partners__icon">
-                    <img src='../../../FTX/img/partners/icons/03.png' loading='lazy' alt=""/>
+                    <img src='../../../FTX/img/partners/icons/03.png'  alt=""/>
                 </div>
             </li>
         </ul>
