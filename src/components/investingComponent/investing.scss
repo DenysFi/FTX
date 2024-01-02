@@ -1,0 +1,176 @@
+.investing {
+    // .investing__container
+    &__container {
+        @include adaptiveValue("padding-top",120 ,90 );
+    }
+    // .investing__main
+    &__main {
+    }
+    &__introduction {
+    }
+    // .investing__content
+   
+}
+
+.main-investing{
+    margin-top: toRem(30);
+    padding: toRem(30);
+    display: grid;
+    grid-template-columns: 1fr toRem(518);
+    row-gap: toRem(30);
+    @media (max-width:$tablet){
+        grid-template-columns: auto;
+    }
+    
+    @media (max-width:$mobile){
+        padding: toRem(30) toRem(15);
+        margin-left: toRem(-15); 
+        margin-right: toRem(-15); 
+    }
+    background-color: #fff;
+    border-radius: toRem(30);
+    @include adaptiveValue("column-gap", 30,15 );
+    &__content {
+        display: grid;
+        row-gap: toRem(20);
+    }
+    // .investing__title
+    &__title {
+        font-weight: 600;
+        @include adaptiveValue("font-size", 40,28 );
+        line-height: 125%;
+        max-width: toRem(406);
+    }
+    // .investing__text
+    &__text {
+        line-height: 166%;
+        font-variant-numeric: lining-nums proportional-nums;
+
+    }
+    // .investing__labels
+    &__labels {
+        display: grid;
+        row-gap: toRem(20);
+    }
+    // .investing__label
+    &__label {
+        
+        
+    }
+    // .investing__image
+    &__image {
+        align-self: center;
+        img{
+            max-width: 100%;
+        }
+        @media (max-width:$tablet){
+            justify-self: center;
+        }
+    }
+}
+
+.label-main-investing {
+    padding: toRem(30) toRem(20);
+    box-shadow: 0px toRem(6) toRem(16) 0px rgba(0, 0, 0, 0.10);
+    border-radius: toRem(10);
+    display: flex; 
+    align-items: center;
+    // .label-investing__icon
+    &__icon {
+        img{
+            margin-right: toRem(20);
+            filter: drop-shadow(0px 10px 10px rgba(0, 84, 247, 0.17));
+        }
+    }
+    // .label-investing__text
+    &__text {
+        p{
+            @include adaptiveValue("font-size",24 ,18 );
+            line-height: 150%;
+            font-weight: 500;
+            span{
+                font-weight: 700;
+                background: var(--GRADIENT1, linear-gradient(94deg, #0183FF 0%, #0054F7 100%));
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+        
+    }
+}
+
+.introduction-investing {
+    @include adaptiveValue("padding-top",90 ,30 );
+    &__image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: toRem(230);
+        img{
+            max-width: 100%;
+           
+        }
+    }
+    // .introduction-investing__content
+    &__content {
+        background-color: #fff;
+        position: relative;
+        z-index: 1;
+        padding: toRem(30);
+        box-shadow: 0px toRem(4) toRem(40) 0px rgba(0, 0, 0, 0.02);
+        border-radius: toRem(20);
+        flex: 1;
+
+    }
+    // .introduction-investing__number
+    &__number {
+        margin-bottom: toRem(20);
+        font-weight: 800;
+        font-size: toRem(46);
+        font-variant-numeric: lining-nums proportional-nums;
+        background-color: #0183FF;
+        border-radius: 50%;
+        height: toRem(68);
+        display: flex;
+        color: #F5F5F5;
+        justify-content: center;
+        width: toRem(68);
+        align-items: center;
+
+    }
+    // .introduction-investing__title
+    &__title {
+        @include adaptiveValue("font-size", 28,20 );
+        font-weight: 500;
+        line-height: 142%;
+        &:not(:last-child) {
+            padding-bottom: toRem(16);
+        }
+    }
+    // .introduction-investing__text
+    &__text {
+        line-height: 166%;
+    }
+    &__items{
+        @media (min-width:$tablet){
+            display: flex;
+        }
+    }
+    &__item{
+        @media (min-width:$tablet){
+            &:not(:last-child) {
+                padding-right: toRem(20);
+            }
+           flex: 0 1 33.333333%;
+           display: flex;
+           flex-direction: column;
+        }
+        
+        &:first-child{
+            .introduction-investing__image{
+                transform: translate(0, 17.421603%);
+            }
+        }
+    }
+}

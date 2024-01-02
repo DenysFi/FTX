@@ -1,0 +1,41 @@
+.fitured {
+    // .fitured__container
+    &__container {
+    }
+    // .fitured__images
+    &__images {
+        @include adaptiveValue("margin-top", 40,20 );
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: toRem(18);
+        @media (max-width:$mobile){
+             display: none; 
+        }
+    }
+    // .fitured__image
+    &__image {
+        padding: toRem(20);
+        @media (max-width:$mobile){
+            background-color: #fff;
+        }
+        background-color: #DEF1F9;
+        border-radius: toRem(6);
+        height: toRem(70);
+        display: flex;
+        align-items: center;
+        @media (max-width:$mobile){
+             justify-content: center; 
+        }
+        img{
+            max-width: 100%;
+        }
+    }
+    &__slider{
+        padding-top: toRem(25);
+        @media (min-width:$mobile){
+             display: none; 
+        }
+        display: block;
+    }
+ 
+}

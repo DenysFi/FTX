@@ -1,0 +1,54 @@
+.trade {
+    // .trade__container
+    &__container {
+        @include adaptiveValue("padding-top",120 ,90 );
+        @include adaptiveValue("padding-bottom",120 ,90 );
+    }
+    // .trade__content
+    &__content {
+        padding-top: toRem(30);
+    }
+    // .trade__cards
+    &__cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        @media (max-width:$tablet){
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @media (max-width:$mobile){
+            grid-template-columns: auto;
+        }
+        row-gap: toRem(17);
+        column-gap: toRem(20);
+    }
+    // .trade__card
+    &__card {
+        padding: toRem(30) toRem(20);
+        background-color: #FFFFFF;
+        border-radius: toRem(10);
+        box-shadow: 0px toRem(4) toRem(40) 0px rgba(0, 0, 0, 0.02);
+        
+    }
+}
+.card-trade {
+    display: grid;
+    gap: toRem(10);
+    // .card-trade__image
+    &__image {
+        height: toRem(100);
+        img{
+            max-width: 100%;
+        }
+    }
+    // .card-trade__title
+    &__title {
+        font-size: toRem(22);
+        font-weight: 700;
+        line-height: 136%;
+
+    }
+    // .card-trade__text
+    &__text {
+        line-height: 166%;
+    }
+}

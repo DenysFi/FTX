@@ -1,0 +1,157 @@
+.meet {
+    // .meet__container
+    &__container {
+        padding-top: toRem(90);
+    }
+    // .meet__cards
+    &__cards {
+        display: flex;
+        @media (max-width:$tablet){
+                flex-direction: column;
+        }
+    }
+    &__button{
+        max-width: toRem(280);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: toRem(35);
+    }
+   
+}
+
+.card-meet {
+    // .card-meet__user
+    padding: toRem(30) toRem(20);
+    @media (min-width:$tablet){
+        &:not(:last-child) {
+            margin-right: toRem(20);
+        }
+    }
+   
+    background-color: #fff;
+    border-radius: toRem(14);
+    box-shadow: 0px toRem(10) toRem(20) 0px rgba(56, 56, 56, 0.10);
+    @media (min-width:$tablet){
+        max-width: toRem(380);
+    }
+    margin-top: toRem(35);
+    &__user {
+        display: flex;
+        padding-bottom: toRem(20);
+        border-bottom: toRem(1) solid rgba(29, 29, 29, 0.1);
+    }
+    // .card-meet__icon
+    &__icon {
+        margin-right: toRem(14);
+        border-radius: 50%;
+        overflow: hidden;
+       
+        border: toRem(2) solid #FFF;
+        
+        img{
+            width:  toRem(60);
+            height: toRem(60);
+        }
+        box-shadow: 0px toRem(7) toRem(15) 0px rgba(0, 0, 0, 0.10);
+    }
+    // .card-meet__user-body
+    &__user-body {
+        display: grid;
+        align-items: end;
+    }
+    // .card-meet__username
+    &__username {
+        font-weight: 700;
+        line-height: 166%;
+    }
+    // .card-meet__strategy
+    &__strategy {
+        font-weight: 500;
+        line-height: 142%;
+        opacity: 0.8;
+        font-size: toRem(14);
+
+    }
+    // .card-meet__body
+    &__body {
+    }
+    &__button{
+        padding: toRem(15) toRem(20);
+    }
+    // .card-meet__labels
+    &__labels {
+        padding-top: toRem(10);
+        padding-bottom: toRem(10);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &:not(:last-child) {
+            padding-right: toRem(10);
+        }
+        font-weight: 500;
+        font-size: toRem(14);
+        font-variant-numeric: lining-nums proportional-nums;
+        line-height: 142%;
+        span{
+            margin-left: toRem(8);
+        }
+    }
+    // .card-meet__invested
+    &__invested {
+        
+    }
+    // .card-meet__score
+    &__score {
+        display: flex;
+        &::before{
+            content:'';
+            margin-right: toRem(8);
+            background: url('../../../public/img/meet/meet-card/ftxIcon.svg') no-repeat ;
+            height: toRem(20);
+            width: toRem(20);
+        }
+    }
+    // .card-meet__image
+    &__image {
+        padding: toRem(10) toRem(14);
+        border-radius: toRem(6);
+        background: linear-gradient(94deg, #0183FF 0%, #0054F7 100%);
+        box-shadow: 0px toRem(10) toRem(15) 0px rgba(0, 84, 247, 0.15);
+        @media (max-width:$tablet){
+            display: flex;
+            justify-content: center;
+        }
+        img{max-width: 100%;}
+    }
+    // .card-meet__info
+    &__info {
+        padding-top: toRem(20);
+        padding-bottom: toRem(20);
+    }
+    // .card-meet__row
+    &__row {
+        display: flex;
+        &:not(:last-child) {
+            margin-bottom: toRem(20);
+        }
+    }
+    // .card-meet__column
+    &__column {
+        flex: 0 1 50%;
+      
+    }
+    // .card-meet__name
+    &__name {
+        font-weight: 500;
+        line-height: 142%;
+        margin-bottom: toRem(4);
+    }
+    // .card-meet__value
+    &__value {
+        color:#0183FF;
+        font-variant-numeric: lining-nums proportional-nums;
+        font-weight: 700;
+        line-height: 111%;   
+    }
+   
+}

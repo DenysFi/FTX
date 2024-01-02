@@ -1,0 +1,93 @@
+.community {
+    // .community__container
+    &__container {
+        display: flex;
+        @media (max-width:$tablet){
+            flex-direction: column;
+            background-color: #fff;
+            border-radius: toRem(20);
+            padding-top: toRem(30);
+            padding-bottom: toRem(30);
+        }
+    }
+    // .community__content
+    &__content {
+        @media (min-width:$tablet){
+            @include adaptiveValue("margin-right", 32,20 );
+            flex: 1 1  toRem(560);
+        }
+        width: 100%;
+        strong{
+            padding: 0;
+            line-height: 130%;
+        }
+    }
+    &__header{
+        h3{
+            line-height: 100%;
+        }
+    }
+    // .community__labels
+    &__labels {
+        @include adaptiveValue("margin-top",20 ,10 );
+       display: grid;
+       grid-template-columns: repeat(auto-fit, minmax(toRem(153), 1fr));
+        gap: toRem(10);
+        margin-bottom: toRem(30);
+    }
+    // .community__label
+    &__label {
+        
+    }
+    // .community__image
+    &__image {
+        background-color: #DEF1F9;
+        padding: toRem(24) toRem(32);
+        display: flex;
+        justify-content: center;
+        border-radius: toRem(16);
+        @media (max-width:$tablet){
+            margin-bottom: toRem(20);
+        }
+        @media (min-width:$tablet){
+            flex: 1 1  toRem(560);
+        }
+        width: 100%;
+        img{
+            max-width: 100%;
+        }
+    }
+    &__link{
+        @media (min-width:$mobile){
+            max-width: toRem(180);
+         
+        }
+        padding-top: toRem(15);
+        padding-bottom: toRem(15);
+        font-size: toRem(16);
+     
+    }
+}
+
+.label-community {
+    border-radius: toRem(30);
+    max-width: 100%;
+    display: flex;
+    img{
+        &:not(:last-child) {
+            margin-right: toRem(6);
+        }
+    }
+    padding: toRem(8) toRem(16);
+    background-color: #DEF1F9;
+    font-size: toRem(14);
+    white-space: nowrap;
+    align-items: center;
+    // .label-offer__icon
+    // .label-community__icon
+    &__icon {
+    }
+    // .label-community__text
+    &__text {
+    }
+}

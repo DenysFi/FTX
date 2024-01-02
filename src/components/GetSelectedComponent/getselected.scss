@@ -1,0 +1,149 @@
+.get-selected {
+    // .get-selected__container
+    @media (min-width:$tablet){
+        background-color: #FFFFFF;
+    }
+    border-radius: toRem(16);
+    @include adaptiveValue("margin-top", 120,90 );
+    @include adaptiveValue("margin-bottom", 120,90 );
+    
+    &__container {
+        @include adaptiveValue("padding-top", 60,20 );
+        @include adaptiveValue("padding-bottom", 60,20 );
+        
+    }
+    // .get-selected__main
+    &__main {
+        margin-top: toRem(20);
+        margin-bottom: toRem(26);
+        box-shadow: 0px 7px 40px 0px rgba(16, 16, 16, 0.10);
+        background-color: #FFFFFF;
+        border-radius: toRem(20);
+        overflow: hidden;
+        display: flex;
+        @media (max-width:$tablet){
+             padding: toRem(20) toRem(0); 
+        }
+        @media (max-width:$mobile){
+             flex-direction: column; 
+             margin-left: toRem(-15);
+             margin-right: toRem(-15);
+             padding-left: toRem(15);
+             padding-right: toRem(15);
+        }
+    }
+    // .get-selected__image
+    &__image {
+        padding: toRem(10) toRem(20);
+        background-color: $mainColor;
+        border-radius: toRem(20);
+        max-width: toRem(197);
+        width: 100%;
+        &:not(:last-child) {
+            margin-right: toRem(20);
+        }
+        @media (max-width:$tablet){
+            margin-bottom: toRem(20);
+        }
+        text-align: center;
+        img{
+            height: toRem(111);
+            width: toRem(111);
+            max-width: 100%;
+        }
+    }
+    // .get-selected__content
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    // .get-selected__title
+    &__title {
+        font-weight: 600;
+        line-height: 142%;
+        @include adaptiveValue("font-size",28 ,24 );
+        &:not(:last-child) {
+            padding-bottom: toRem(10);
+        }
+    }
+    // .get-selected__text
+    &__text {
+        font-size: toRem(18);
+        line-height: 111.111111%; 
+    }
+    // .get-selected__advantages
+    &__advantages {
+    }
+}
+.advantages-selected {
+    // .advantages-selected__cards
+    &__cards {
+        display: grid;
+        column-gap: toRem(20);
+        row-gap: toRem(20);
+        @media (min-width:$tablet){
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+    }
+    // .advantages-selected__card
+    &__card {
+        border-radius: toRem(10);
+        @include adaptiveValue("padding-top", 30,20 );
+        @include adaptiveValue("padding-bottom", 30,20 );
+        @include adaptiveValue("padding-left", 40,15 );
+        @include adaptiveValue("padding-right", 40,15 );
+        @media (max-width:$tablet){
+            margin: 0 toRem(-15);
+        }
+        &:first-child{
+            box-shadow: 0px toRem(20) toRem(30) 0px rgba(0, 84, 247, 0.16);
+            background: linear-gradient(90deg, #0054F7 0%, #0054F7 0.01%, #034CDA 100%);
+        }
+        &:last-child{
+            background: linear-gradient(90deg, #FF902E 0%, #FF902E 0.01%, #E87815 100%);
+            box-shadow: 0px toRem(20) toRem(30) 0px rgba(255, 144, 46, 0.16);
+        }
+    }
+    // .advantages-selected__title
+    &__title {
+        color: #F5F5F5;
+        text-shadow: 0px toRem(4) toRem(10) rgba(0, 0, 0, 0.10);
+        font-weight: 600;
+        line-height: 156%;
+        font-size: toRem(32);
+        &:not(:last-child) {
+            padding-bottom: toRem(20);
+        }
+    }
+    // .advantages-selected__list
+    &__list {
+        display: grid;
+        row-gap: toRem(12);
+        &:not(:last-child) {
+            padding-bottom: toRem(12);
+        }
+    }
+    // .advantages-selected__item
+    &__item {
+        font-weight: 500;
+        color: #fff;
+        line-height: 166%;
+        background: url('../../../public/img/common/check.svg') left top / toRem(35) toRem(30)  no-repeat;
+        padding-left: toRem(30);
+    }
+    &__link{
+        color: #F5F5F5;
+        font-size: toRem(16);
+        font-weight: 600;
+        letter-spacing: toRem(0.48);
+        padding: toRem(15) toRem(15);
+        @media (any-hover: hover){
+            &:hover{
+                box-shadow: toRem(0) toRem(0) toRem(10) toRem(1) #fff;
+            }
+        }
+          
+    }
+}

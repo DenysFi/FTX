@@ -1,0 +1,90 @@
+.empower {
+    // .empower__container
+    &__container {
+        @include adaptiveValue("padding-top", 120,90 );
+        @include adaptiveValue("padding-bottom", 120,90 );
+       
+    }
+    // .empower__content
+    &__content {
+        margin-top: toRem(30);
+        @media (max-width:$mobile){
+            margin-left: toRem(-15);
+            margin-right: toRem(-15); 
+       }
+        background: linear-gradient(94deg, #0183FF 0%, #0054F7 100%);
+        box-shadow: 0px toRem(11) toRem(33) 0px rgba(46, 90, 231, 0.20);
+        border-radius: toRem(20);
+        display: grid;
+        grid-template-columns: toRem(451) 1fr;
+        @media (max-width:$tablet){
+            grid-template-columns:auto;
+        }
+        row-gap: toRem(20);
+        overflow: hidden;
+    }
+    // .empower__spoilers
+    &__spoilers-wrapper{
+        @media (max-width:$tablet){
+            @include adaptiveValue("padding-right", 30,10 );
+        }
+        @include adaptiveValue("padding-left",30 ,10 );
+        @include adaptiveValue("padding-top",30 ,10 );
+        @include adaptiveValue("padding-bottom",30 ,10 );
+    }
+    &__spoilers {
+        display: grid;
+        gap: toRem(20);
+    }
+    // .empower__spoiler
+    &__spoiler {
+    }
+    &__image{
+        justify-self: end;
+        align-self: self-end;
+        img{
+            max-width: 100%;
+        }
+    }
+}
+.spoiler-empower {
+    // .spoiler-empower__title
+    color: #F5F5F5;
+    border: toRem(1) solid #F5F5F5;
+    border-radius: toRem(20);
+    padding: toRem(10) toRem(0);
+    transition: background-color 0.3s ease-out, color 0.1s ease-out;
+    &._spoiler-active {
+       background-color: #F5F5F5;
+
+    }
+    &__title {
+        &::marker{
+            display: none;
+            content: "";
+            list-style-type:none;
+        }
+        line-height: 136%;
+        font-weight: 500;
+        font-size: toRem(22);
+        cursor: pointer;
+        ._spoiler-active &{
+            color: $mainColor;
+        }
+        padding: toRem(10) toRem(30);
+        
+    }
+    // .spoiler-empower__body
+    &__body {
+       color: $mainColor;
+        line-height: 166%;
+        padding-top: toRem(0);
+        padding-left: toRem(30);
+        padding-right: toRem(30);
+        transition: all 0.3s;
+        ._spoiler-active &{
+            margin-top: toRem(0);
+        }
+        margin-top: toRem(10);
+    }
+}

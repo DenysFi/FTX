@@ -1,0 +1,121 @@
+.offer {
+    // .offer__container
+    &__container {
+        @include adaptiveValue("padding-top",120 ,90 );
+        @include adaptiveValue("padding-bottom",140 ,90 );
+    }
+    // .offer__cards
+    &__cards {
+        display: grid;
+        @include adaptiveValue("row-gap",170 ,40 );
+    }
+    // .offer__card
+    &__card {
+    }
+}
+.card-offer {
+    display: grid;
+    grid-template-columns: 1fr 48.983051%;
+
+    @media (max-width:$tablet){
+        grid-template-columns:auto;
+    }
+    @include adaptiveValue("column-gap", 36, 20);
+
+    &:nth-child(3){
+        .card-offer__image{
+            justify-content: flex-end;
+            padding-right: 0;
+            padding-left: 0;
+            
+        }
+    }
+    // .card-offer__content
+    &__content {
+        
+    }
+    // .card-offer__sub-title
+    &__sub-title {
+        display: flex;
+        align-items: center;
+        color: $blueColor;
+        text-transform: uppercase;
+        font-weight: 600;
+        line-height: 166%;
+
+        &:not(:last-child) {
+            @include adaptiveValue("margin-bottom", 30,15 );
+        }
+    }
+    // .card-offer__icon
+    &__icon {
+        margin-right: toRem(10);
+        
+    }
+    // .card-offer__title
+    &__title {
+        
+    }
+    // .card-offer__text
+    &__text {
+    }
+    // .card-offer__labels
+    &__labels {
+       @include adaptiveValue("margin-top",20 ,10 );
+        display: flex;
+        flex-wrap: wrap;
+        gap: toRem(10);
+        
+    }
+    // .card-offer__label
+    &__label {
+        
+    }
+    // .card-offer__image
+    &__image {
+        overflow: hidden;
+        flex-direction: column;
+        margin-top: toRem(15);
+        margin-bottom: toRem(15);
+        @include adaptiveValue("padding-left", 56,30 );
+        @include adaptiveValue("padding-right", 56,30 );
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+       
+        border-radius: toRem(16);
+        justify-content: center;
+        filter: drop-shadow(0px toRem(10) toRem(20) rgba(0, 0, 0, 0.05));
+        img{
+            max-width: 100%;
+        }
+      
+    }
+   
+}
+
+.label-offer {
+    border-radius: toRem(30);
+    display: flex;
+    img{
+        &:not(:last-child) {
+            margin-right: toRem(6);
+        }
+    }
+    padding: toRem(8) toRem(16);
+    background-color: #DEF1F9;
+    font-size: toRem(14);
+    white-space: nowrap;
+    align-items: center;
+    // .label-offer__icon
+
+    &__icon {
+    }
+    // .label-offer__text
+    &__text {
+    }
+    &__button{
+        @include adaptiveValue("margin-top",30 ,20 );
+        max-width: toRem(180);
+    }
+}

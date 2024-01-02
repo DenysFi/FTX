@@ -1,0 +1,43 @@
+.currency {
+    // .currency__container
+    &__container {
+    }
+    // .currency__tabs
+    &__tabs {
+     
+    }
+    &__nav{
+        display: grid;
+        grid-template-columns: repeat(7,  1fr);
+        row-gap: toRem(5);
+
+        border: 1px solid #E1E2E4;
+        border-radius: toRem(6);
+        position: relative;
+        @media (max-width:$tablet){
+          overflow-x: scroll;
+          overflow-y:unset;
+          padding: toRem(10) toRem(10) toRem(20) toRem(10);
+          margin-right: toRem(-15);
+          background: linear-gradient(94deg, #0183FF 0%, #0054F7 100%);
+          color: $mainColor;
+          column-gap: toRem(10);
+        }
+
+    }
+    &__body{
+        padding-top: toRem(40);
+    }
+    &__button{
+        @include adaptiveValue("font-size",20 ,18 );
+        &:not(:last-child) {
+        }
+        @media (max-width:$tablet){
+          white-space: nowrap;
+          background: #F1F1F1;
+          padding: toRem(10) toRem(20); 
+        }
+    }
+
+}
+
