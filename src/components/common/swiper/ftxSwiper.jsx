@@ -11,6 +11,7 @@ const FtxSwiper = ({children}) => {
     const [sliedesPerView, setSliedesPerView] = useState(5);
     
     useEffect (()=>{
+      setSliedesPerView(5); 
       const handleSlidesPerView = () => {
         
          window.innerWidth  >= 1050?  setSliedesPerView(5) 
