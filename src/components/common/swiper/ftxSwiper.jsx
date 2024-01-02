@@ -12,8 +12,8 @@ const FtxSwiper = ({children}) => {
     
     useEffect (()=>{
       const handleSlidesPerView = () => {
-        swiperRef.current 
-        && window.innerWidth  >= 1050?  setSliedesPerView(5) 
+        
+         window.innerWidth  >= 1050?  setSliedesPerView(5) 
         : window.innerWidth  >= 800 && window.innerWidth  < 1050? setSliedesPerView(4)
         : window.innerWidth > 450 && window.innerWidth < 800?(setSliedesPerView(2)) : setSliedesPerView('auto') ;
       }
