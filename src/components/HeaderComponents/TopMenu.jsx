@@ -12,7 +12,7 @@ const TopMenu = forwardRef(function TopMenu({dmediaquery}, ref)  {
                 {/* <a href="#/"> CLIENT</a> */}
               </div>
             <div className={'top-menu-header__item ' + (location.pathname === '/' && '_active')}>
-              <Link to={'/'}>PARTNERS</Link>
+              <Link to={'/FTX'}>PARTNERS</Link>
                 {/* <a href="#/"> PARTNERS</a> */}
             </div>
           </nav>
