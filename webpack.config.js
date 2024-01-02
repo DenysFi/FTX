@@ -1,22 +1,25 @@
+const path = require('path');
+
 module.exports = {
-    // ...
-    module: {
-      rules: [
-        {
-          test: /\.scss$/,
-          use: [
-            {
-              loader: 'postcss-loader',
-              options: {
-                postcssOptions: {
-                  plugins: [
-                    require('autoprefixer')
-                  ]
-                }
-              }
+  // ... другие настройки ...
+
+  module: {
+    rules: [
+      {
+        test: /\.scss$/,
+        use: [
+          // ... другие лоадеры ...
+
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'FTX/img/footer/', // Измените эту строку
+              publicPath: (url) => path.join('FTX/img/footer/', url),
             },
-          ],
-        },
-      ],
-    },
-  };
+          },
+        ],
+      },
+    ],
+  },
+};
