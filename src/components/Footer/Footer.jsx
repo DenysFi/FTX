@@ -222,10 +222,10 @@ const Footer = () => {
                     isDownloadMoveble  &&
                     <div ref={downloadRef} className="footer__download">
                         <a href="##">
-                            <img src="../../../img/footer/apple.svg" alt="Apple download "/>
+                            <img src="../../../FTX/img/footer/apple.svg" alt="Apple download "/>
                         </a>
                         <a href="##">
-                            <img src="../../../img/footer/google.svg" alt="Google download"/>
+                            <img src="../../../FTX/img/footer/google.svg" alt="Google download"/>
                         </a>
                     </div>
                 }
